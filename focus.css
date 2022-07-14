@@ -18,7 +18,7 @@ h2{
     display: flex;
     gap: 5px;
     color: #fff;
-    font-size: 4em;
+    font-size: 15em;
     cursor: pointer;
 }
 
@@ -37,7 +37,7 @@ h2 span:hover{
 h2 span i{
     position: absolute;
     inset: 0;
-    background: #f00;
+    background: transparent;
 }
 
 h2 spn:hover i::before{
@@ -48,5 +48,20 @@ h2 spn:hover i::before{
     width: 2px;
     height: 8px;
     background: #fff;
-    box-shadow: 0 53px #fff;
+    box-shadow: 0 53px #fff,
+    36px 53px #fff,
+    36px 0 #fff;
+}
+
+h2 spn:hover i::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 8px;
+    background: #fff;
+    box-shadow: 0 53px #fff,
+    30px 60px #fff,
+    30px 0 #fff;
 }
