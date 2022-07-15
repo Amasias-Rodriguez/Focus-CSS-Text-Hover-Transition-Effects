@@ -45,7 +45,7 @@ h2 spn:hover i::before{
     position: absolute;
     top: 0;
     left: 0;
-    width: 2px;
+    width: 5px;
     height: 8px;
     background: #fff;
     box-shadow: 0 53px #fff,
